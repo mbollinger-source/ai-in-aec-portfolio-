@@ -662,12 +662,14 @@ a {
 
 .portfolio-focus-image {
   margin-top: 56px;
+  width: 100%;
 }
 
 .portfolio-focus-image img {
   width: 100%;
-  height: 520px;
+  height: 560px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 

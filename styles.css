@@ -661,8 +661,9 @@ a {
 }
 
 .portfolio-focus-image {
-  margin-top: 56px;
-  width: 100%;
+  margin: 56px auto 0;
+  max-width: 1200px;
+  width: calc(100% - 80px);
 }
 
 .portfolio-focus-image img {
@@ -671,6 +672,7 @@ a {
   object-fit: cover;
   object-position: center;
   display: block;
+  border-radius: 0;
 }
 
 @media (max-width: 900px) {
@@ -688,7 +690,8 @@ a {
   }
 
   .portfolio-focus-image {
-    margin-top: 36px;
+    margin: 36px auto 0;
+    width: calc(100% - 32px);
   }
 
   .portfolio-focus-image img {

@@ -633,4 +633,63 @@ a {
   .hero-actions {
     flex-direction: column;
   }
+  .portfolio-focus {
+  background: #ece7dc;
+  padding: 100px 0 0;
+}
+
+.portfolio-focus-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.95fr;
+  gap: 80px;
+  align-items: end;
+}
+
+.portfolio-focus-left h2 {
+  font-size: clamp(3rem, 6vw, 6.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.portfolio-focus-right p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  max-width: 620px;
+  margin: 0;
+}
+
+.portfolio-focus-image {
+  margin-top: 56px;
+}
+
+.portfolio-focus-image img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .portfolio-focus {
+    padding: 72px 0 0;
+  }
+
+  .portfolio-focus-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .portfolio-focus-left h2 {
+    font-size: clamp(2.5rem, 12vw, 4.5rem);
+  }
+
+  .portfolio-focus-image {
+    margin-top: 36px;
+  }
+
+  .portfolio-focus-image img {
+    height: 320px;
+  }
 }

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Mini-Agent | Marta Bollinger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header site-header--solid">
+    <div class="container nav-wrap">
+      <a class="brand brand--dark" href="index.html">
+        <span class="brand-kicker">Marta Bollinger</span>
+        <span class="brand-title">AI in the AEC Industry Portfolio</span>
+      </a>
+      <nav class="main-nav main-nav--dark">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="news.html">AI News</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+      <a class="nav-cta nav-cta--dark" href="projects.html">Back to Projects</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--stone">
+      <div class="container page-hero__inner">
+        <p class="eyebrow eyebrow-dark">Project / Assignment</p>
+        <h1>Project Meeting Notes & Action Item Assistant GPT</h1>
+        <p class="page-subtitle page-subtitle--dark">A custom mini-agent created to organize messy meeting notes and transcripts into clear summaries and action items.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container project-layout">
+        <div class="project-main">
+
+          <div class="content-block">
+            <p class="section-label">Problem</p>
+            <p>
+              During meetings there is usually a lot going on at once. People are talking through ideas, making decisions, and figuring out what tasks need to be complete. With all that in mind, it can be easy to forget all the small things that were mentioned or get sidetrack on what to do. This mini-agent helps organize messy notes or transcripts into a simple summary with clear action items so nothing gets missed.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <p class="section-label">Who Would Use It</p>
+            <p>
+              Students would mainly use this type of mini-agent, especially ones working in group projects. This is because conversations tend to be scattered and not always documented clearly. This tool could also be useful for professionals working on teams projects or to give to a member that needs to be brought up to speed on something quickly.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <p class="section-label">Context the Mini-Agent Needs</p>
+            <p>
+              This mini-agent should understand how meetings and group discussions usually work. It should also recognize when tasks or roles are assigned, and when questions or follow-ups come up. Another thing it needs to understand that meeting notes might be messy or incomplete. Its job it to organize the information without adding new details.
+            </p>
+          </div>
+
+          <div class="content-block bordered-block">
+            <p class="section-label">Expected Outcome</p>
+            <p>
+              The mini-agent should produce a clear meeting summary that includes the main discussion points, key decisions, action items, and any follow-up questions. The goal is to make it easy for a team to quickly understand what happened in the meeting and what tasks need to be completed next.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <p class="section-label">Testing Reflection</p>
+            <p>
+              The mini-agent did well when organizing messy discussion into a structure format. I even gave it a Teams chat to see what it could do. It was able to identify action items and discussion points. The follow up questions were not always needed but were nice if there was a second meeting. It even did well will transcripts and labeling who spoke about what. One strength of the tool was that it did not invent missing deadlines or filler information that was not explicitly discussed.
+            </p>
+
+            <p>
+              However, I do think it missed deadlines just because wording was off or GPTs do not really do well with time. For example, if someone says this needs to be done by tomorrow, the GPT will not give an exact date back but say tomorrow.
+            </p>
+          </div>
+
+          <div class="content-block bordered-block">
+            <p class="section-label">Ethical Concern</p>
+            <p>
+              One ethical concern I have with this is that the mini-agent could summarize or organize information incorrectly or share information that was not meant to be public.
+            </p>
+          </div>
+
+        </div>
+
+        <aside class="project-sidebar">
+          <div class="card-soft">
+            <p class="meta-label">Project Theme</p>
+            <p class="meta-value">Custom-built AI mini-agent</p>
+
+            <p class="meta-label">Tool Created</p>
+            <p class="meta-value">Meeting Notes & Action Item Assistant GPT</p>
+
+            <p class="meta-label">Main Purpose</p>
+            <p class="meta-value">Organize messy notes, decisions, action items, and follow-up questions.</p>
+
+            <p class="meta-label">Key Takeaway</p>
+            <p class="meta-value">AI can help teams stay organized, but it still needs human review for accuracy and context.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section muted-bg">
+      <div class="container">
+        <div class="section-heading section-heading--center">
+          <p class="section-label">Reflection</p>
+          <h2>This project showed how AI can support team communication in a practical way.</h2>
+          <p class="page-subtitle page-subtitle--dark page-subtitle--narrow">
+            The mini-agent was helpful for turning scattered information into something more organized, but it also showed why people still need to review AI-generated outputs before relying on them.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <p class="footer-title">Marta Bollinger</p>
+        <p>AI in the AEC Industry Portfolio</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

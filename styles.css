@@ -713,3 +713,8 @@ a {
 .podcast-placeholder audio {
   width: 100%;
 }
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

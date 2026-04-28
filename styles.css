@@ -718,3 +718,13 @@ a {
   flex-direction: column;
   gap: 6px;
 }
+.feature-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+  justify-content: center;
+  gap: 24px;
+}
+
+.feature-card {
+  width: 100%;
+  max-width: 320px;
+}

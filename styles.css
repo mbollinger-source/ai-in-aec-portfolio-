@@ -633,7 +633,10 @@ a {
   .hero-actions {
     flex-direction: column;
   }
-  .portfolio-focus {
+}
+
+/* Portfolio Focus Section */
+.portfolio-focus {
   background: #ece7dc;
   padding: 100px 0 0;
 }
@@ -661,18 +664,18 @@ a {
 }
 
 .portfolio-focus-image {
-  margin: 56px auto 0;
-  max-width: 1200px;
-  width: calc(100% - 80px);
+  margin: 40px auto 0;
+  max-width: 600px;
+  width: calc(100% - 48px);
 }
 
 .portfolio-focus-image img {
   width: 100%;
-  height: 560px;
+  height: auto;
   object-fit: cover;
   object-position: center;
   display: block;
-  border-radius: 0;
+  border-radius: 16px;
 }
 
 @media (max-width: 900px) {
@@ -693,11 +696,10 @@ a {
     margin: 36px auto 0;
     width: calc(100% - 32px);
   }
+}
 
-  .portfolio-focus-image img {
-    height: 320px;
-  }
-  .podcast-placeholder {
+/* Stack video + audio neatly */
+.podcast-placeholder {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -713,12 +715,18 @@ a {
 .podcast-placeholder audio {
   width: 100%;
 }
+
+/* Stack section headings vertically */
 .section-heading {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  align-items: flex-start;
 }
+
+/* Control feature card sizing so cards do not stretch */
 .feature-grid {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
   justify-content: center;
   gap: 24px;

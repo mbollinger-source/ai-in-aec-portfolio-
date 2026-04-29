@@ -565,7 +565,7 @@ a {
   border-radius: 30px;
   background:
     linear-gradient(to top, rgba(18, 32, 36, 0.18), rgba(18, 32, 36, 0.08)),
-    url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80') center center / cover no-repeat;
+    url('imgpic.png') center center / cover no-repeat;
   box-shadow: var(--shadow);
 }
 

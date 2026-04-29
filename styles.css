@@ -727,12 +727,13 @@ a {
 /* Control feature card sizing so cards do not stretch */
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+  grid-template-columns: repeat(3, 320px);
   justify-content: center;
+  align-items: start;
   gap: 24px;
 }
 
 .feature-card {
-  width: 100%;
-  max-width: 320px;
+  width: 320px;
+  height: auto;
 }
